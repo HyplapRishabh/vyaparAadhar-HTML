@@ -1,0 +1,1966 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+/* cookie ui start here */
+
+.privacy-warning {
+    background: #24305Ec9;
+    opacity: 1;
+    border-radius: 10px;
+    width: 90%;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    bottom: 10px;
+    padding: 15px 25px;
+    z-index: 9999;
+    text-align: left;
+    position: fixed;
+    height: auto;
+    color: #fff;
+}
+
+.privacy-warning .close {
+    transform: none;
+    top: 15px;
+    right: 15px;
+    font-size: inherit;
+    font-weight: 700;
+    position: absolute;
+}
+
+.privacy-warning .info {
+    font-family: 'Arial';
+    color: #fff;
+    font-size: 16px;
+    line-height: 18px;
+}
+
+.privacy-warning .info a {
+    color: #F76C6C;
+}
+
+
+/* .privacy-warning .close:before {
+    content: "";
+    background: url(/-/media/project/vyaparaadharfolder/CountryWebsites/India/start-up-banking/closed.svg) no-repeat center center !important;
+    height: 17px;
+    width: 17px;
+    position: absolute;
+} */
+
+
+/* cookie ui end here */
+
+
+/* navbar start here */
+
+.container {
+    max-width: 1200px;
+}
+
+#header {
+    overflow: hidden;
+    top: 0;
+    display: flex;
+    align-items: center;
+    background: #FF5C34;
+    width: 100%;
+    z-index: 1;
+    background: #FF5C34 0% 0% no-repeat padding-box;
+    box-shadow: 0px 10px 30px #D8632B29;
+    padding: 0 100px;
+    height: 100px;
+    position: fixed;
+    z-index: 999;
+    justify-content: space-between;
+}
+
+#header img.logo {
+    max-height: 60px;
+}
+
+#header .icons ul {
+    display: flex;
+}
+
+#header .icons ul li:first-child {
+    margin-right: 20px;
+    padding-right: 21px;
+    border-right: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+#header .icons ul li a {
+    padding: 0 !important;
+    margin: 0 !important;
+    display: block;
+}
+
+.nav-clear {
+    height: 80px;
+}
+
+.menu {
+    position: relative;
+}
+
+.menu a {
+    font: normal normal 18px/23px Helvetica Neue;
+    font-family: 'Helvetica Neue LT Pro Bd';
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    text-decoration: none;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.menu a.active,
+.menu a:hover {
+    color: #005b82;
+}
+
+.contact-us {
+    font: normal normal normal 12px/14px Arial !important;
+    letter-spacing: 0px;
+    color: #24305E !important;
+    display: flex !important;
+    justify-content: flex-start;
+    align-items: center;
+    position: absolute;
+    top: -5px;
+    right: 0;
+    margin: 0 !important;
+}
+
+.contact-us img {
+    margin-right: 5px;
+}
+
+.btn {
+    display: none;
+    position: absolute;
+    right: 20px;
+}
+
+.btn:hover>span {
+    background: #FFF;
+}
+
+.btn span {
+    display: block;
+    margin: 8px 0;
+    width: 35px;
+    height: 2px;
+    background: #fff;
+}
+
+.start_up {
+    margin-top: 100px;
+}
+
+
+/* navbar end here */
+
+
+/* accordian start here */
+
+.accordion-container {
+    position: relative;
+    max-width: 500px;
+    height: auto;
+    margin: 10px auto;
+}
+
+.accordion-container>h2 {
+    text-align: center;
+    padding-bottom: 5px;
+    margin-bottom: 20px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #ddd;
+}
+
+.set {
+    position: relative;
+    width: 100%;
+    height: auto;
+    background-color: #f5f5f5;
+}
+
+.set>h6 {
+    display: block;
+    padding: 10px 15px;
+    text-decoration: none;
+    color: #555;
+    font-weight: 600;
+    border-bottom: 1px solid #ddd;
+    -webkit-transition: all 0.2s linear;
+    -moz-transition: all 0.2s linear;
+    transition: all 0.2s linear;
+}
+
+.set>h6 i {
+    float: right;
+    margin-top: 2px;
+}
+
+.set>h6.active {
+    background-color: #3399cc;
+    color: #fff;
+}
+
+.content {
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+    display: none;
+}
+
+.content p {
+    padding: 10px 15px;
+    margin: 0;
+    color: #333;
+}
+
+
+/* accordian end here */
+
+.cta {
+    font: normal normal 12px/14px Arial !important;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    background: #24305E 0% 0% no-repeat padding-box;
+    border-radius: 23px;
+    min-width: 130px;
+    padding: 10px;
+    text-align: center;
+    transition: all 0.3s ease-in-out;
+    display: none !important;
+}
+
+.cta:hover {
+    color: #24305E;
+    background-color: #fff;
+    transition: all 0.3s ease-in-out;
+}
+
+.links {
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 10px 20px #1F3C661A;
+    margin-bottom: 41px;
+}
+
+.links .services {
+    padding: 15px 30px;
+}
+
+.links .services .service_cpy {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.links .services .service_cpy h3 {
+    text-align: left;
+    font: normal normal 300 20px/22px Helvetica Neue;
+    font-family: 'Helvetica Neue LT Pro Lt';
+    color: #444444;
+    margin-left: 15px;
+}
+
+.links ul {
+    display: flex;
+}
+
+.links ul li a {
+    font-size: 20px;
+    color: #444444;
+    text-align: left;
+}
+
+.spotlight-img {
+    width: 100%;
+    position: relative;
+}
+
+.spotlight-img .spotlight-txt {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    color: #fff;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.spotlight-img .spotlight-frm {
+    position: fixed;
+    top: 80px;
+    right: 5%;
+    background: #ffff;
+    width: 350px;
+    padding: 20px 30px;
+    border-radius: 10px;
+    z-index: 999;
+}
+
+.spotlight-img .spotlight-frm h6 {
+    text-align: left;
+    font: normal normal bold 18px/12px Helvetica Neue;
+    font-family: 'Helvetica Neue LT Pro Bd';
+    letter-spacing: 0px;
+    color: #1F3C66;
+    margin: 8px 0;
+}
+
+.spotlight-img .spotlight-frm span {
+    text-align: left;
+    font: italic normal normal 10px/12px Arial;
+    letter-spacing: 0px;
+    color: #24305E;
+}
+
+.spotlight-img .spotlight-frm .form-group {
+    margin-bottom: 0;
+}
+
+.spotlight-img .spotlight-frm input,
+.spotlight-img .spotlight-frm select {
+    border: 1px solid #F76C6C;
+    border-radius: 23px;
+    /* margin: 10px 0; */
+    color: #24305E;
+    font-size: 14px;
+    min-height: 40px;
+    padding: 0 20px;
+    width: 100%;
+    font: normal normal normal 12px/14px Arial;
+    letter-spacing: 0px;
+    color: #24305E;
+    outline: none !important;
+    box-shadow: none !important;
+    display: block;
+}
+
+.form-group {
+    position: relative;
+    margin: 12px 0;
+}
+
+.form-group .placeholder-label {
+    font: normal normal normal 12px/14px Arial;
+    letter-spacing: 0px;
+    color: #24305E;
+    position: absolute;
+    top: 13px;
+    left: 15px;
+    padding: 0 5px;
+    z-index: 0;
+    background: #fff;
+    transition: all 0.3s ease-in-out;
+}
+
+.form-group select,
+.form-group input {
+    position: relative;
+    z-index: 1;
+    background: transparent !important;
+    background-color: transparent !important;
+}
+
+.form-group select:focus~.placeholder-label,
+.form-group select:valid~.placeholder-label,
+.form-group input:focus~.placeholder-label,
+.form-group input:valid~.placeholder-label {
+    top: -7px;
+    z-index: 1;
+    transition: all 0.3s ease-in-out;
+    font-size: 11px;
+}
+
+.spotlight-img .spotlight-frm select {
+    appearance: none !important;
+    -webkit-appearance: none !important;
+    -moz-appearance: none !important;
+    background: url(../../../../../../project/vyaparaadharfolder/CountryWebsites/India/start-up-banking/down-arrow.svg) no-repeat 93% center !important;
+}
+
+.form-btn {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.back-cls {
+    background: transparent !important;
+    color: #24305E !important;
+    text-decoration: underline !important;
+    padding: 0 !important;
+}
+
+.captchaBox {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 12px;
+}
+
+.captchaBox .form-group {
+    margin: 0;
+}
+
+.captchaBox img {
+    height: auto !important;
+    width: auto !important;
+}
+
+.captchaBox {
+    margin-bottom: 10px !important;
+}
+
+.captchaBox .captcha-text {
+    width: 150px !important;
+    margin: 0 !important;
+}
+
+.captchaBox #img_captcha {
+    border: 1px solid #1f3c66;
+    border-radius: 50px;
+    height: 35px !important;
+    margin: 0 10px;
+}
+
+.captchaBox .captchaImgBox {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.captchaBox .refreshCaptcha {
+    cursor: pointer;
+}
+
+.spotlight-img .spotlight-frm .form-btn a {
+    font: normal normal 14px/16px Arial;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    background: #24305E 0% 0% no-repeat padding-box;
+    border-radius: 23px;
+    padding: 11px 28px;
+}
+
+.spotlight-img .spotlight-frm p {
+    text-align: left;
+    font: normal normal normal 10px/12px Arial;
+    letter-spacing: 0px;
+    color: #24305E;
+    margin: 12px 0;
+}
+
+::placeholder {
+    text-align: left;
+    font: normal normal normal 12px/50px Arial;
+    letter-spacing: 0px;
+    color: #24305E;
+}
+
+.spotlight-img .spotlight-txt h1 {
+    text-align: left;
+    font: normal normal 60px/64px Helvetica Neue;
+    font-family: 'Helvetica Neue LT Pro Th';
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+.spotlight-img img {
+    width: 100%;
+    height: 460px;
+    object-fit: cover;
+}
+
+.top_div {
+    width: 100%;
+    margin: 80px 0;
+}
+
+.top_div .load-more-btn {
+    text-align: center;
+}
+
+.top_div .load-more-btn a {
+    font: normal normal bold 12px/14px Arial;
+    letter-spacing: 0px;
+    color: #1F3C66;
+    border: 1px solid #1F3C66;
+    border-radius: 23px;
+    padding: 10px 20px;
+    min-width: 145px;
+    transition: all 0.3s ease-in-out;
+}
+
+.top_div .load-more-btn a:hover {
+    color: #fff;
+    background: #1F3C66;
+    transition: all 0.3s ease-in-out;
+}
+
+.contct_us {
+    position: relative;
+}
+
+.contct_us a:before {
+    content: "";
+    position: absolute;
+    background: url(../../../../../../project/vyaparaadharfolder/CountryWebsites/India/start-up-banking/contact-2.svg);
+    top: 3px;
+    left: -14px;
+    width: 15px;
+    height: 14px;
+}
+
+.top_div h2 {
+    font: normal normal 100 40px/42px Helvetica Neue;
+    font-family: 'Helvetica Neue LT Pro Th';
+    letter-spacing: 0px;
+    color: #1F3C66;
+    text-align: left;
+}
+
+.top_div .order-2 {
+    padding-right: 0;
+}
+
+.top_div .order-1 {
+    padding-left: 0;
+}
+
+.top_div .order-1 h2 {
+    padding: 20px 40px 75px;
+}
+
+.vyaparaadhar_blue_txt {
+    color: #24305E;
+}
+
+.top_div .inner_card {
+    min-height: 350px;
+    background: #fff 0% 0% no-repeat;
+    box-shadow: 0 10px 30px #24305E1a;
+    border-radius: 10px;
+    padding: 28px 45px;
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.top_div .inner_card .card_title .card_top {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.inner_card .vapa-e-auction-filter-btn-div {
+    position: absolute;
+    bottom: 30px;
+    left: 50px;
+}
+
+.vapa-comman-btn {
+    border: 1px solid #F76C6C;
+    border-radius: 23px;
+    text-align: center;
+    font: normal normal bold 12px/14px Arial;
+    letter-spacing: 0px;
+    color: #F76C6C;
+    padding: 7px 18px;
+    margin-right: 20px;
+    transition: all 0.3s ease-in-out;
+}
+
+.vapa-comman-btn:hover {
+    background: #F76C6C;
+    color: #fff;
+    transition: all 0.3s ease-in-out;
+}
+
+.top_div .inner_card .card_title .card_top span {
+    margin-right: 23px;
+}
+
+.top_div .inner_card .card_title .card_top h2 {
+    /* font-size: 20px;
+    font-family: 'Helvetica Neue LT Pro Lt'; */
+    font: normal normal 300 20px/24px Helvetica Neue;
+    font-family: 'Helvetica Neue LT Pro Lt';
+    letter-spacing: 0px;
+    color: #1F3C66;
+}
+
+.top_div .inner_card .card_title p {
+    margin-bottom: 20px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 8;
+    -webkit-box-orient: vertical;
+    text-align: left;
+    font-size: 14px;
+    line-height: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 0;
+    color: #1F3C66;
+}
+
+.top_div .inner_card .card_title ul {
+    margin-bottom: 20px;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 11;
+    -webkit-box-orient: vertical;
+    text-align: left;
+    font-size: 14px;
+    line-height: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 0;
+    color: #1F3C66;
+}
+
+.top_div .inner_card .card_title ul li {
+    list-style-type: disc;
+    padding-left: 5px;
+    margin-left: 12px;
+}
+
+li::marker {
+    color: #F76C6C;
+    background-color: #F76C6C;
+    background: #F76C6C;
+}
+
+.top_div .inner_card a.vapa-line-arrow-orange-link:before {
+    content: "";
+    position: absolute;
+    background: url(../../../../../../project/vyaparaadharfolder/CountryWebsites/India/start-up-banking/knowmoreblack.png);
+    width: 19px;
+    height: 9px;
+    display: block;
+    transform: translateY(-50%) scale(.9);
+    top: 50%;
+    right: 0;
+    left: auto;
+    z-index: 1;
+    transition: all .25s linear;
+    color: #1F3C66;
+}
+
+.top_div .inner_card a.vapa-line-arrow-orange-link:hover {
+    color: #F76C6C;
+}
+
+.top_div .inner_card .vapa-line-arrow-orange-link {
+    font-size: 12px;
+    line-height: 14px;
+    font-family: 'Helvetica Neue LT Pro Md';
+    font-family: 'Arial';
+    color: #1F3C66;
+    border: 0;
+    display: inline-flex;
+    padding: 0;
+    position: relative;
+    padding-right: 25px;
+    font-weight: 700;
+}
+
+.section_3 .blogbox {
+    padding: 0 0 50px 0;
+    text-align: center;
+    margin-top: -93px;
+}
+
+.section_3 .blogbox .inner_blogbox {
+    width: 100%;
+}
+
+.section_3 .blogbox ul {
+    padding: 0 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section_3 .blogbox ul li {
+    margin: 0 8px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 10px 20px #1F3C661A;
+    border-radius: 10px;
+    width: calc((100% / 6) - 8px);
+    min-height: 170px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.section_3 .blogbox .services img {
+    margin: 0 auto;
+    height: 70px;
+    object-fit: contain;
+}
+
+.section_3 .blogbox .services p {
+    text-align: center;
+    font: normal normal normal 14px/20px Helvetica Neue;
+    font-family: 'Helvetica Neue LT Pro Roman';
+    letter-spacing: 0px;
+    color: #1F3C66;
+    margin-top: 20px;
+}
+
+.section_3 .rates-and-charges {
+    background: url(../../../../../../project/vyaparaadharfolder/CountryWebsites/India/start-up-banking/service.webp) no-repeat;
+    background-size: auto;
+    height: 220px;
+    background-size: cover;
+    position: relative;
+    text-align: center;
+    background-position: top;
+}
+
+.section_3 .rates-and-charges .blueoverlay {
+    background: rgba(198, 97, 72, 0.7);
+    position: absolute;
+    top: -5px;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.section_3 .rates-and-charges .blueoverlay h2 {
+    font-size: 40px;
+    color: #FFFFFF;
+    margin: 20px 0 6px 0;
+    font: normal normal 100 40px/42px Helvetica Neue;
+    font-family: 'Helvetica Neue LT Pro Th';
+}
+
+.section_3 .rates-and-charges .blueoverlay p {
+    font-size: 18px;
+    color: #FFFFFF;
+    font: normal normal normal 18px/20px Arial;
+}
+
+
+/* Budding entrepreneurs section start here */
+
+.entrepreneurs {
+    width: 100%;
+    background: #F4F5F9;
+}
+
+.entrepreneurs .grand-parent {
+    min-height: 275px;
+}
+
+.entrepreneurs .grand-parent h2 {
+    text-align: center;
+    margin: auto;
+    padding: 63px 0 20px 0;
+    font: normal normal 100 40px/42px Helvetica Neue;
+    font-family: 'Helvetica Neue LT Pro Th';
+    letter-spacing: 0px;
+}
+
+.entrepreneurs .slidercontainer {
+    position: relative;
+    /* height: 300px; */
+    width: 100%;
+}
+
+.entrepreneurs .slidercontainer .sliderslide {
+    width: 197px;
+    min-height: 104px;
+    margin: 20px;
+    background: #fff;
+    box-shadow: 0px 0px 15px #24305E14 !important;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.entrepreneurs .slidercontainer .sliderslide img {
+    width: 100%;
+    height: 100px;
+    max-width: 100%;
+    object-fit: contain;
+}
+
+.slick-arrow {
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.slick-arrow:hover .d {
+    fill: #F76C6C;
+}
+
+.slick-arrow:hover .b {
+    fill: #fff;
+}
+
+.slick-arrow.slick-disabled {
+    filter: grayscale(1);
+    cursor: not-allowed;
+}
+
+.entrepreneurs .slidercontainer .prev-slide {
+    position: absolute;
+    right: 55px;
+    bottom: -50px;
+    border: none;
+    background: none;
+    font-size: 20px;
+    z-index: 1;
+}
+
+.entrepreneurs .slidercontainer .prev-slide:hover {
+    color: #24305E;
+}
+
+.entrepreneurs .slidercontainer .nxt-slide:hover {
+    color: #24305E;
+}
+
+.entrepreneurs .slidercontainer .nxt-slide {
+    position: absolute;
+    right: 20px;
+    bottom: -50px;
+    border: none;
+    background: none;
+    font-size: 20px;
+}
+
+
+/*Budding entrepreneurs section end here*/
+
+
+/*customer testimonial sections start here*/
+
+.testimonial {
+    width: 100%;
+    margin: 90px 0;
+    margin-top: 0;
+}
+
+.testimonial .testimonial-txt {
+    display: flex;
+    margin: 80px auto;
+    position: relative;
+    z-index: 1;
+}
+
+.testimonial .testimonial-txt h2 {
+    text-align: left;
+    /* font: normal normal 100 40px/42px Helvetica Neue; */
+    letter-spacing: 0px;
+    color: #1F3C66;
+    font-size: 40px;
+    font-family: 'Helvetica Neue LT Pro Th';
+}
+
+.testimonial .slidercontainer {
+    position: relative;
+    width: 100%;
+}
+
+.testimonial .slidercontainer .slick-slide {
+    padding: 20px 5px;
+}
+
+.testimonial .slidercontainer .sliderslide {
+    width: 366px;
+    min-height: 350px;
+    max-height: 350px;
+    overflow: hidden;
+    margin: 20px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 0px 15px #24305E14 !important;
+    border-radius: 10px;
+    padding: 0;
+}
+
+.testimonial .slidercontainer .sliderslide .scroll-y {
+    max-height: 350px;
+    overflow-y: auto;
+}
+
+.testimonial .slidercontainer .sliderslide .twitter-tweet {
+    margin: 0 !important;
+}
+
+.mCSB_inside>.mCSB_container {
+    margin-right: 0px !important;
+}
+
+.mCS-dark.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar {
+    background-color: #FF5C34 !important;
+    background: #FF5C34 !important;
+}
+
+.testimonial .slidercontainer .sliderslide,
+.testimonial .slidercontainer .sliderslide .only-img-a {
+    height: 100%;
+    position: relative;
+}
+
+.testimonial .slidercontainer .sliderslide .vapa-tw-svg {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 30px;
+    height: 30px;
+}
+
+.testimonial .slidercontainer .sliderslide .icon-right-top svg {
+    width: 100%;
+    height: 100%;
+}
+
+.testimonial .slidercontainer .sliderslide .customer_comnt {
+    padding: 21px 15px;
+    overflow: hidden;
+    /* background: url(/-/media/project/vyaparaadharfolder/CountryWebsites/India/start-up-banking/double-q.svg) no-repeat 93% -5px; */
+}
+
+.testimonial .slidercontainer .sliderslide .customer_comnt span {
+    text-align: left;
+    font: normal normal normal 10px/20px Arial;
+    letter-spacing: 0px;
+    color: #A8A8A8;
+}
+
+.testimonial .slidercontainer .sliderslide .customer_comnt p {
+    text-align: left;
+    font: normal normal 300 16px/20px Helvetica Neue;
+    font-family: 'Helvetica Neue LT Pro Lt';
+    letter-spacing: 0px;
+    color: #1F3C66;
+    margin: 9px 0;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 8;
+    -webkit-box-orient: vertical;
+}
+
+.testimonial .slidercontainer .sliderslide .customer_comnt .cstmr_prfl {
+    display: flex;
+    margin-bottom: 15px;
+}
+
+.testimonial .slidercontainer .sliderslide .customer_comnt .cstmr_prfl img {
+    border-radius: 50%;
+}
+
+.testimonial .slidercontainer .sliderslide .customer_comnt h2 {
+    text-align: left;
+    font: normal normal normal 20px/20px Arial;
+    letter-spacing: 0px;
+    color: #1F3C66;
+}
+
+.testimonial .slidercontainer .sliderslide .customer_comnt .cstmr-name {
+    padding: 10px 15px;
+}
+
+.testimonial .slidercontainer .sliderslide .customer_comnt small {
+    text-align: left;
+    font: normal normal 300 12px/20px Helvetica Neue;
+    font-family: 'Helvetica Neue LT Pro Lt';
+    letter-spacing: 0px;
+    color: #A8A8A8;
+}
+
+.testimonial .slidercontainer .sliderslide .vapa-report-d-div .vapa-gallery-img-div {
+    position: relative;
+}
+
+.testimonial .slidercontainer .sliderslide .vapa-report-d-div .vapa-gallery-img-div img {
+    max-width: 100%;
+    width: 100%;
+    height: 190px;
+    object-fit: cover;
+}
+
+.testimonial .slidercontainer .sliderslide .vapa-report-d-div {
+    position: relative;
+}
+
+.testimonial .slidercontainer .sliderslide .vapa-report-d-div .vapa-gallery-text-div {
+    padding: 15px 20px;
+}
+
+.testimonial .slidercontainer .sliderslide .vapa-report-d-div .vapa-gallery-text-div span {
+    text-align: left;
+    font: normal normal normal 10px/20px Arial;
+    letter-spacing: 0px;
+    color: #A8A8A8;
+}
+
+.testimonial .slidercontainer .sliderslide .vapa-report-d-div .vapa-gallery-text-div h6 {
+    text-align: left;
+    font: normal normal normal 20px/20px Arial;
+    letter-spacing: 0px;
+    color: #1F3C66;
+}
+
+.testimonial .slidercontainer .sliderslide .vapa-report-d-div .vapa-gallery-img-div:before {
+    background: url(../../../../../../project/vyaparaadharfolder/CountryWebsites/India/start-up-banking/play-btn.svg) no-repeat center center;
+    content: "";
+    position: absolute;
+    z-index: 1;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 70px;
+    height: 70px;
+    background-size: cover;
+    cursor: pointer;
+}
+
+.testimonial .slidercontainer .slick-arrow {
+    cursor: pointer;
+}
+
+.testimonial .slidercontainer .prev-slide {
+    position: absolute;
+    right: 55px;
+    bottom: -30px;
+    border: none;
+    background: none;
+    font-size: 20px;
+    z-index: 1;
+}
+
+.testimonial .slidercontainer .prev-slide:hover {
+    color: red;
+}
+
+.testimonial .slidercontainer .nxt-slide {
+    position: absolute;
+    right: 20px;
+    bottom: -30px;
+    border: none;
+    background: none;
+    font-size: 20px;
+}
+
+.testimonial .slidercontainer .nxt-slide:hover {
+    color: red;
+}
+
+.star-div {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.star-div img {
+    margin-right: 5px;
+    filter: invert(97%) sepia(0%) saturate(20%) hue-rotate(195deg) brightness(83%) contrast(97%);
+}
+
+.star-div img.active {
+    filter: none;
+}
+
+
+/*customer testimonial sections ends here*/
+
+
+/*startup events sections start here*/
+
+.events {
+    margin: 70px 10px;
+}
+
+.events .event_parent h2 {
+    text-align: center;
+    margin: auto;
+    padding: 20px 0;
+    font: normal normal 100 40px/42px Helvetica Neue;
+    font-family: 'Helvetica Neue LT Pro Th';
+    letter-spacing: 0px;
+}
+
+.events .slidercontainer {
+    position: relative;
+    /* height: 300px; */
+    width: 100%;
+}
+
+.events .slidercontainer .sliderslide {
+    width: 323px;
+    /* max-height: 257px; */
+    margin: 20px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 0px 15px #24305E14;
+    border-radius: 10px;
+}
+
+.events .slidercontainer .sliderslide .box-content {
+    padding: 30px 40px;
+    position: relative;
+}
+
+.events .slidercontainer .sliderslide .box-content img {
+    height: 50px;
+    object-fit: contain;
+}
+
+.events .slidercontainer .sliderslide .box-content .read-more {
+    padding: 25px 0 21px;
+    display: inline-flex;
+    /* position: static;
+    bottom: 20px;
+    left: 62px;
+    float: right; */
+}
+
+.events .slidercontainer .sliderslide .box-content .read-more a {
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    padding-right: 25px;
+    font: normal normal bold 12px/14px Arial;
+    color: #1F3C66;
+}
+
+.events .slidercontainer .sliderslide .box-content .read-more a:before {
+    content: "";
+    background: url(../../../../../../project/vyaparaadharfolder/CountryWebsites/India/start-up-banking/knowmoreblack.png) no-repeat center center;
+    width: 20px;
+    height: 10px;
+    display: block;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%) scale(.9);
+    right: 0;
+    left: auto;
+    z-index: 1;
+    transition: all .25s linear;
+}
+
+.events .slidercontainer .sliderslide .box-content .read-more a:hover {
+    color: #F76C6C;
+}
+
+.events .slidercontainer .sliderslide .slide-txt {
+    margin-top: 15px;
+}
+
+.events .slidercontainer .sliderslide .slide-txt h6 {
+    font-size: 20px;
+    margin-bottom: 5px;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    font: normal normal normal 20px/24px Helvetica Neue;
+    font-family: 'Helvetica Neue LT Pro Roman';
+    letter-spacing: 0px;
+    color: #1F3C66;
+    min-height: 48px;
+}
+
+.events .slidercontainer .sliderslide .slide-txt span {
+    font-size: 12px;
+    color: #A8A8A8;
+    text-align: left;
+    font: normal normal normal 12px/16px Arial;
+    letter-spacing: 0px;
+    color: #A8A8A8;
+    display: block;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    min-height: 32px;
+}
+
+.events .slidercontainer .prev-slide {
+    position: absolute;
+    right: 55px;
+    bottom: -30px;
+    border: none;
+    background: none;
+    font-size: 20px;
+    z-index: 1;
+}
+
+.events .slidercontainer .prev-slide:hover {
+    color: red;
+}
+
+.events .slidercontainer .nxt-slide {
+    position: absolute;
+    right: 20px;
+    bottom: -30px;
+    border: none;
+    background: none;
+    font-size: 20px;
+}
+
+.events .slidercontainer .nxt-slide:hover {
+    color: red;
+}
+
+
+/*startup events sections end here*/
+
+
+/*startup resources sections start here*/
+
+.resources {
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+.resources .resource_parent h2 {
+    text-align: center;
+    margin: auto;
+    padding: 20px 0;
+    font: normal normal 100 40px/42px Helvetica Neue;
+    font-family: 'Helvetica Neue LT Pro Th';
+    letter-spacing: 0px;
+}
+
+.resources .resource_parent p {
+    margin-bottom: 10px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    text-align: left;
+    font-size: 14px;
+    line-height: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 0;
+    min-height: 36px;
+    color: #1F3C66;
+}
+
+.resources .slidercontainer {
+    position: relative;
+    /* height: 300px; */
+    width: 100%;
+}
+
+.resources .slidercontainer .slick-list {
+    padding: 20px 0 50px 0;
+}
+
+.resources .slidercontainer .sliderslide {
+    /* width: 381px; */
+    /* min-height: 130px; */
+    margin: 0 10px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 0px 15px #1F3C661A;
+    border-radius: 10px;
+}
+
+.resources .slidercontainer .sliderslide .box-content {
+    padding: 20px 30px;
+    position: relative;
+}
+
+.resources .slidercontainer .sliderslide .box-content .explore-more {
+    padding: 25px 0 15px;
+    display: inline-flex;
+    position: static;
+    bottom: 20px;
+    left: 62px;
+}
+
+.resources .slidercontainer .sliderslide .box-content .explore-more a {
+    font-family: Arial, Helvetica, sans-serif;
+    font: normal normal bold 12px/14px Arial;
+    color: #1F3C66;
+    position: relative;
+    padding-right: 25px;
+}
+
+.resources .slidercontainer .sliderslide .box-content .explore-more a:before {
+    content: "";
+    background: url(../../../../../../project/vyaparaadharfolder/CountryWebsites/India/start-up-banking/knowmoreblack.png) no-repeat center center;
+    width: 20px;
+    height: 10px;
+    display: block;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%) scale(.9);
+    right: 0;
+    left: auto;
+    z-index: 1;
+    transition: all .25s linear;
+}
+
+.resources .slidercontainer .sliderslide .box-content .explore-more a:hover {
+    color: #F76C6C;
+}
+
+.resources .slidercontainer .prev-slide {
+    position: absolute;
+    right: 45px;
+    bottom: 0;
+    border: none;
+    background: none;
+    font-size: 20px;
+    z-index: 1;
+}
+
+.resources .slidercontainer .prev-slide:hover {
+    color: red;
+}
+
+.resources .slidercontainer .nxt-slide {
+    position: absolute;
+    right: 10px;
+    bottom: 0;
+    border: none;
+    background: none;
+    font-size: 20px;
+}
+
+.resources .slidercontainer .nxt-slide:hover {
+    color: red;
+}
+
+#header .icons ul li img {
+    height: 60px;
+}
+
+#header .icons ul li img,
+#header,
+.spotlight-img .spotlight-frm {
+    transition: all 0.3s ease-in-out;
+}
+
+.shrink .spotlight-img .spotlight-frm {
+    transition: all 0.3s ease-in-out;
+    z-index: 999;
+    transform: translateX(500px);
+}
+
+.shrink #header {
+    padding: 0 20px;
+    height: 80px;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0px 10px 20px #1f3c661a;
+}
+
+.shrink #header .cta {
+    display: inline-block !important;
+}
+
+.shrink #header .icons ul li:last-child a img {
+    /* height: 60px;
+    width: 60px;
+    object-fit: cover;
+    object-position: left;
+    transition: all 0.3s ease-in-out; */
+}
+
+
+/*startup resources sections end here*/
+
+.faqs_accordion {
+    position: relative;
+}
+
+.faqs_accordion .faqs-img-text-div {
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+.faqs_accordion .faqs-img-text-div img {
+    height: 100%;
+    object-fit: cover;
+    width: 100%;
+}
+
+.faqs_accordion .faqs-img-text-div:before {
+    background: #1F3C66 0% 0% no-repeat padding-box;
+    opacity: 0.7;
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.faqs_accordion .faqs-text-div h2 {
+    text-align: center;
+    font: normal normal 100 40px/42px Helvetica Neue;
+    font-family: 'Helvetica Neue LT Pro Th';
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.faqs-main-div {
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 10px 30px #24305E1A;
+    border-radius: 10px;
+    padding: 40px 60px;
+    margin-bottom: 100px;
+}
+
+.faqs-main-div li {
+    padding: 20px 0;
+    border-bottom: 1px solid rgba(22, 43, 117, 0.1);
+}
+
+.faqs-main-div li:first-child {
+    padding-top: 0;
+}
+
+.faqs-main-div li h6 {
+    font: normal normal normal 18px/20px Arial;
+    letter-spacing: 0px;
+    color: #24305E;
+    padding-right: 30px;
+    cursor: pointer;
+    position: relative;
+    transition: all 0.3s ease-in-out;
+}
+
+.faqs-main-div li h6:after {
+    content: "";
+    background: url(../../../../../../project/vyaparaadharfolder/CountryWebsites/India/start-up-banking/down-arrow.svg) no-repeat center center;
+    width: 12px;
+    height: 8px;
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    transition: all 0.3s ease-in-out;
+}
+
+.faqs-main-div li.active h6 {
+    color: #24305E;
+    transition: all 0.3s ease-in-out;
+}
+
+.faqs-main-div li.active h6:after {
+    transform: rotate(180deg);
+    transition: all 0.3s ease-in-out;
+}
+
+.faqs-main-div .faqs-content-div {
+    margin-top: 20px;
+    display: none;
+}
+
+.faqs-main-div .faqs-content-div p {
+    font: normal normal normal 16px/18px Arial;
+    letter-spacing: 0px;
+    color: #24305E;
+}
+
+.load-more-content .load-div {
+    display: none;
+}
+
+html,
+body {
+    overflow-x: hidden;
+}
+
+#header .icons ul li a img {
+    object-position: left;
+}
+
+.display-div {
+    display: none;
+}
+
+.display-div.active {
+    display: block;
+}
+
+.faqs-main-div .faqs-content-div p {
+    font: normal normal normal 16px/18px Arial;
+    letter-spacing: 0px;
+    color: #24305E;
+    margin-bottom: 10px;
+}
+
+.faqs-main-div .faqs-content-div a {
+    color: #F76C6C;
+}
+
+.faqs-main-div .faqs-content-div ul,
+.faqs-main-div .faqs-content-div ol {
+    list-style: none;
+    margin-left: 15px;
+}
+
+.faqs-main-div .faqs-content-div ul li,
+.faqs-main-div .faqs-content-div ol li {
+    list-style-position: inherit;
+    font-family: 'Arial';
+    margin-bottom: 10px;
+    margin-left: 0;
+    color: #24305E;
+    border: none;
+    padding: 0;
+}
+
+.faqs-main-div .faqs-content-div ul li {
+    list-style-type: disc;
+}
+
+.faqs-main-div .faqs-content-div ul li::marker {
+    color: #F76C6C;
+    background: #F76C6C;
+}
+
+.popup-yes-no-div,
+.popup-video-div {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    z-index: 999;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.popup-cloud-open .popup-yes-no-div,
+.popup-yes-no-open .popup-yes-no-div,
+.video-popup-open .popup-video-div {
+    opacity: 1;
+    visibility: visible;
+}
+
+.closed {
+    position: absolute;
+    height: 40px;
+    right: 20px;
+    top: 20px;
+    cursor: pointer;
+}
+
+.popup-cloud-open .popup-content-div {
+    display: none;
+}
+
+.popup-cloud-open .popup-content-div.cloud-popup {
+    display: block;
+}
+
+.cloud-popup a {
+    color: #F76C6C;
+    word-break: break-word;
+}
+
+.cloud-popup strong {
+    min-width: 130px;
+    display: inline-block;
+}
+
+.cloud-popup p {
+    margin-top: 10px;
+}
+
+.cloud-popup p:first-child {
+    margin-top: 0px;
+}
+
+.popup-video-div .popup-content-div {
+    width: 1000px;
+    height: 560px;
+}
+
+.popup-yes-no-div .popup-content-div {
+    width: 600px;
+    background: #fff;
+    padding: 30px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 10px 20px #1f3c661a;
+    border-radius: 10px;
+}
+
+.popup-yes-no-div .popup-content-div p {
+    font: normal normal normal 18px/24px Arial;
+    letter-spacing: 0px;
+    color: #24305E;
+}
+
+.btn-div-popup {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.cloud-popup {
+    display: none;
+}
+
+.orange-solid-btn,
+.blue-solid-btn {
+    font: normal normal 14px/16px Arial;
+    letter-spacing: 0px;
+    color: #FFFFFF !important;
+    background: #24305E 0% 0% no-repeat padding-box;
+    border-radius: 23px;
+    padding: 11px 28px;
+    margin: 0 5px;
+}
+
+.orange-solid-btn {
+    background: #ff5c34 0% 0% no-repeat padding-box;
+}
+
+.entrepreneurs.testimonial {
+    background: transparent;
+    margin-top: 50px;
+}
+
+.entrepreneurs.testimonial .slidercontainer .sliderslide {
+    min-height: 300px;
+}
+
+.entrepreneurs.testimonial .slidercontainer .prev-slide,
+.entrepreneurs.testimonial .slidercontainer .nxt-slide {
+    top: auto;
+}
+
+.inner-slider-div .main-img {
+    height: 215px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.inner-slider-div .slick-slide {
+    padding-top: 0 !important;
+}
+
+.inner-slider-div .slick-dots {
+    bottom: -10px;
+}
+
+.inner-slider-div .slick-dots button {
+    display: none;
+}
+
+.inner-slider-div .slick-dots li {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: #ccc;
+}
+
+.inner-slider-div .slick-dots li.slick-active {
+    background: #FF5C34;
+}
+
+@media only screen and (max-width: 767px) {
+    .top_div .inner_card .card_title ul {
+        margin-bottom: 55px;
+    }
+    .start_up {
+        margin-top: 75px;
+    }
+    #header {
+        overflow: visible;
+        padding: 0 20px;
+        height: 75px;
+    }
+    .menu {
+        width: 100vw;
+        right: 0;
+        top: 75px;
+        transition: 0.3s;
+        position: fixed;
+        background: #ff5c34;
+        height: auto;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        overflow-x: auto;
+        opacity: 0;
+        visibility: hidden;
+    }
+    .shrink #header {
+        transform: translateY(-75px);
+    }
+    .show .menu {
+        opacity: 1;
+        visibility: visible;
+        border-top: 1px solid rgba(255, 255, 255, 0.3);
+    }
+    .shrink .menu {
+        opacity: 1;
+        visibility: visible;
+    }
+    .shrink #header .cta,
+    #header .cta {
+        display: none !important;
+    }
+    .menu a {
+        display: block;
+        text-align: left;
+        padding: 20px;
+        margin: 0;
+        color: #fff;
+        font-size: 16px;
+        line-height: 18px;
+        white-space: nowrap;
+    }
+    .btn {
+        display: block;
+        cursor: pointer;
+        right: 0;
+        padding: 0;
+        margin: 0;
+        position: static;
+    }
+    #header img.logo {
+        max-height: 60px;
+        width: 70%;
+        padding: 3px 0;
+    }
+    #header .icons ul li a img {
+        height: 40px;
+    }
+    .nav {
+        width: 100%;
+        overflow-x: scroll;
+    }
+    .spotlight-img img {
+        width: 100%;
+        height: 400px;
+        object-position: left;
+    }
+    .spotlight-img .spotlight-txt h1 {
+        font-size: 38px;
+        line-height: 44px;
+    }
+    .spotlight-img .spotlight-txt h6 {
+        font-size: 40px;
+        line-height: 37px;
+    }
+    .spotlight-img .spotlight-txt .cta {
+        display: inline-block !important;
+        margin-top: 20px;
+        transition: none !important;
+        color: #FFFFFF !important;
+        background: #24305E !important;
+    }
+    .spotlight-img .spotlight-txt {
+        flex-wrap: wrap;
+    }
+    .shrink .spotlight-img .spotlight-txt .cta {
+        position: fixed;
+        bottom: 0;
+        border-radius: 0;
+        width: 100%;
+        left: 0;
+        padding: 15px 0;
+        z-index: 9;
+        font-size: 14px !important;
+        font-weight: 700 !important;
+    }
+    #header .icons {
+        margin-top: 0px;
+    }
+    .shrink #header .icons ul li:last-child a img {
+        height: 40px;
+        width: 40px;
+    }
+    #header .icons ul li:first-child {
+        margin-right: 10px;
+        padding-right: 11px;
+    }
+    .links .services {
+        padding: 15px 5px;
+    }
+    .links .services .service_cpy {
+        justify-content: flex-start;
+        margin-top: 20px;
+    }
+    .top_div .order-1 h2 {
+        padding: 0 20px;
+        margin-bottom: 20px;
+    }
+    .top_div .order-1 {
+        padding-left: 15px;
+    }
+    .top_div .order-2 {
+        padding-right: 15px;
+        margin-top: 40px;
+    }
+    .top_div .inner_card {
+        margin-bottom: 20px;
+    }
+    .resources .resource_parent h2,
+    .faqs_accordion .faqs-text-div h2,
+    .events .event_parent h2,
+    .entrepreneurs .grand-parent h2,
+    .testimonial .testimonial-txt h2,
+    .top_div .order-1 h2,
+    .section_3 .rates-and-charges .blueoverlay h2 {
+        font-size: 30px;
+        line-height: 34px;
+    }
+    .section_3 .rates-and-charges .blueoverlay p {
+        font-size: 14px;
+        padding: 0 50px;
+    }
+    .section_3 .blogbox ul {
+        flex-wrap: wrap;
+        padding: 0;
+    }
+    .section_3 .blogbox ul li {
+        width: calc((100% / 2) - 16px);
+    }
+    .testimonial .testimonial-txt .align-items-center {
+        flex-wrap: nowrap;
+    }
+    .testimonial .testimonial-txt {
+        margin: 0 auto;
+    }
+    .testimonial .testimonial-txt img {
+        height: 150px;
+        margin: 0 auto;
+    }
+    .testimonial .slidercontainer .sliderslide .customer_comnt span {
+        font-size: 14px;
+        line-height: 16px;
+    }
+    .entrepreneurs .grand-parent h2 {
+        padding-top: 35px;
+    }
+    .entrepreneurs .slidercontainer .sliderslide {
+        width: auto;
+        margin: 15px;
+    }
+    .entrepreneurs .slidercontainer .sliderslide img {
+        max-width: 100%;
+    }
+    .entrepreneurs .grand-parent {
+        min-height: 200px;
+    }
+    .entrepreneurs .slidercontainer .slick-arrow {
+        bottom: -40px;
+    }
+    .faqs_accordion .faqs-img-text-div {
+        height: 250px;
+    }
+    .faqs-main-div {
+        padding: 30px 20px;
+        margin-bottom: 30px;
+    }
+    .faqs_accordion .faqs-text-div h2 {
+        margin-bottom: 30px;
+    }
+    .faqs-main-div li h6 {
+        font-size: 16px;
+        line-height: 18px;
+    }
+    .faqs-main-div li {
+        padding: 15px 0;
+    }
+    .faqs-main-div .faqs-content-div p {
+        font-size: 14px;
+    }
+    .resources .resource_parent h2 {
+        padding-bottom: 0;
+    }
+    .resources .slidercontainer .sliderslide {
+        margin: 0px 20px;
+    }
+    .resources .slidercontainer .slick-list {
+        margin: 0 -20px;
+    }
+    .spotlight-img .spotlight-frm {
+        position: absolute;
+        display: block !important;
+        transform: none !important;
+        top: 850px;
+        background: #fff;
+        z-index: 2;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+        width: 90%;
+        min-height: 420px;
+        box-shadow: 0px 10px 20px #1F3C661A;
+    }
+    .shrink .spotlight-img .spotlight-frm {
+        z-index: 0;
+    }
+    .spotlight-img .spotlight-txt h6 {
+        font-size: 24px;
+        line-height: 26px;
+    }
+    .top_div {
+        margin-top: 600px;
+    }
+    .contact-us {
+        position: static;
+        margin-right: 20px;
+    }
+    .popup-yes-no-div .popup-content-div {
+        width: 90%;
+    }
+    .popup-video-div .popup-content-div {
+        width: 335px;
+        height: 190px;
+    }
+    .events {
+        margin: 70px 0;
+    }
+}
+
+.vapa-news-social-group-div.container-fluid {
+    display: none;
+}
+
+div#footer-overlay-bottom {
+    display: none;
+}
+
+.vapa-chat-iframe {
+    display: none;
+}
+
+audio#welcomeaudio {
+    display: none;
+}
+
+audio#clickaudio {
+    display: none;
+}
+
+.vapa-popup-common-div.insurance-popup-div {
+    display: none;
+}
